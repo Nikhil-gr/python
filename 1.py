@@ -85,7 +85,38 @@
 # print("Number of groups formed: ", groups)
 
 
+# user = int(input("Please type in a temperature (F): "))
 
+# celsius = (user - 32) * 5/9
+
+# print(f"{user} degrees Fahrenheit equals to {celsius} degrees Celsius")
+# if celsius < 0:
+
+#     print("Brr! It's cold in here!")
+
+
+
+# wage = float(input("Hourly wage: "))
+# worked = float(input("Hours worked: "))
+# day = input("Day of the week: ")
+
+# if day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' or day == 'Friday' or day == 'Saturday':
+#     total = wage * worked
+#     print(f"Daily wages: {total} euros")
+
+# elif day == "Sunday":
+#     total = 2*wage*worked
+#     print(f"Daily wages: {total} euros")
+
+
+points = int(input("How many points are on your card? "))
+
+if points < 100:
+    print("Your bonus is 10%")
+    bonus = points+ (points * 0.1)
+else:
+    print("Your bonus is 15%")
+    bonus = points+ (points * 0.15)
 
 
 
