@@ -109,15 +109,71 @@
 #     print(f"Daily wages: {total} euros")
 
 
-points = int(input("How many points are on your card? "))
+# points = int(input("How many points are on your card? "))
 
-if points < 100:
-    print("Your bonus is 10%")
-    bonus = points+ (points * 0.1)
-else:
-    print("Your bonus is 15%")
-    bonus = points+ (points * 0.15)
+# if points < 100:
+#     print("Your bonus is 10%")
+#     bonus = points+ (points * 0.1)
+# else:
+#     print("Your bonus is 15%")
+#     bonus = points+ (points * 0.15)
 
+# print("What is the weather forecast for tomorrow?")
+# temperature = float(input("Temperature: "))
+# rains = input("will it rain(yes/no): ")
+
+
+# if temperature > 20:
+#     print("Wear jeans and a Tshirt")
+    
+# elif temperature > 10 and temperature <=20:
+#     print("Wear jeans and a Tshirt")
+#     print("I recommend a jumper as well")
+
+# elif temperature > 5 and temperature <=10:
+#     print("Wear jeans and a Tshirt")
+#     print("I recommend a jumper as well")
+#     print("Take a jacket with you")
+
+# elif temperature <= 5:
+#     print("Wear jeans and a Tshirt")
+#     print("I recommend a jumper as well")
+#     print("Take a jacket with you")
+#     print("Make it a warm coat, actually")
+#     print("I think gloves are in order")
+
+
+# if rains == 'yes':
+#     print("Don't forget your umbrella!")
+
+
+# print("Person 1: ")
+# Name1 = input("Name: ")
+# Age1 = int(input("Age: "))
+# print("Person 2: ")
+# Name2 = input("Name: ")
+# Age2 = int(input("Age: "))
+
+
+# if Age1 > Age2:
+#     print(f"The elder is {Name1}")
+# elif Age1 < Age2:
+#         print(f"The elder is {Name2}")
+# elif Age1 == Age2:
+#     print(f"{Name1} and {Name2} are the same age")
+
+
+# firstWord = input("Please type in the 1st word: ")
+# secondWord = input("Please type in the 2nd word: ")
+
+
+# if (firstWord) < (secondWord):
+#     print(f"{secondWord} comes alphabetically last.")
+# elif firstWord== secondWord:
+#     print("You gave the same word twice.")
+
+# else:
+#     print(f"{firstWord} comes alphabetically last.")
 
 
 
