@@ -180,7 +180,7 @@
 
 # if marks > 100:
 #     print("impossible!")
-# elif marks >= 90 and marks <100:
+# elif marks >= 90 and marks <=100:
 #     print("Grade: 5")
 # elif marks >= 80 and marks <90:
 #     print("Grade: 4")
@@ -230,13 +230,11 @@
 
 # number = 5
 # print("Countdown!")
-
 # while True:
 #   print(number)
 #   number = number - 1
-#   if number < 0:
+#   if number == 0:
 #     break
-
 # print("Now!")
 
 
