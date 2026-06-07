@@ -176,5 +176,67 @@
 #     print(f"{firstWord} comes alphabetically last.")
 
 
+# marks = int(input("How many points[0-100]: "))
 
-  
+# if marks > 100:
+#     print("impossible!")
+# elif marks >= 90 and marks <100:
+#     print("Grade: 5")
+# elif marks >= 80 and marks <90:
+#     print("Grade: 4")
+# elif marks >= 70 and marks <80:
+#     print("Grade: 3")
+# elif marks >= 60 and marks < 70:
+#     print("Grade: 2")
+# elif marks >= 50 and marks <60:
+#     print("Grade: 1")
+# elif marks >= 0 and marks < 50:
+#     print("Grade: fail")
+# else:
+#     print("impossible!")
+
+
+# giftPrice = float(input("Value of gift: "))
+
+# if giftPrice >=5000 and giftPrice<=25000:
+#     tax = (100 + (giftPrice-5000) * 0.08)
+#     print(f"Amount of tax: {tax} euros")
+
+# elif giftPrice >=25000 and giftPrice<=55000:
+#     tax = (1700 + (giftPrice-25000) * 0.1)
+#     print(f"Amount of tax: {tax} euros")
+    
+# elif giftPrice >=55000 and giftPrice<=200000:
+#     tax = (4700 + (giftPrice-55000) * 0.12)
+#     print(f"Amount of tax: {tax} euros")
+    
+# elif giftPrice >=200000 and giftPrice<=1000000:
+#     tax = (22100 + (giftPrice-200000) * 0.15)
+#     print(f"Amount of tax: {tax} euros")
+
+# elif giftPrice >=1000000:
+#     tax = (142100 + (giftPrice-1000000) * 0.17)
+#     print(f"Amount of tax: {tax} euros")
+# else: 
+#     print("No tax!")
+
+
+# while True:
+#     print("hi")
+#     question = input("Shall we continue?")
+#     if question =="no":
+#         break
+# print("okay then")
+
+# number = 5
+# print("Countdown!")
+
+# while True:
+#   print(number)
+#   number = number - 1
+#   if number < 0:
+#     break
+
+# print("Now!")
+
+
