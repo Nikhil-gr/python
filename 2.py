@@ -60,3 +60,27 @@
 # print(f"The mean of the numbers is {mean}")
 # print(f"Positive numbers {positive}")
 # print(f"Negative numbers {neagtive}")
+
+
+# i = 2
+
+# while i<=30:
+#     if i%2==0:
+#         print(i)
+        
+#     i+=1
+    
+# print("Are you ready?")
+# number = int(input("Please type in a number: "))
+# while number >=1:
+#     print(number)
+#     number-=1
+# print("Now!")
+
+# test=1
+# user = int(input("Upper limit: "))
+
+# while test<user :
+#     print(test)
+#     test+=1
+
